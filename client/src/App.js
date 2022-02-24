@@ -34,6 +34,7 @@ function App() {
         <Route path="/documents/:id">
           <TextEditor />
         </Route>
+        
         <Route path="*">
           <NotFound/>
         </Route>

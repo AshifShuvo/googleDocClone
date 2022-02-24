@@ -1,4 +1,6 @@
-// import { useNavigate } from "react-router-dom";
+import { useHistory } from "react-router-dom";
+
+// import { useHistory } from "react-router-dom/cjs/react-router-dom.min";
 
 function Signup(){
     
@@ -6,6 +8,12 @@ function Signup(){
     // const handleLogin = () => {
     //     navigate("/document");  
     // }
+
+    const history = useHistory()
+
+    const goto_signup = () => {
+        // history.push('/sex_korte_hobe')
+    }
     
     return (
         <div className="page-container">
@@ -21,6 +29,7 @@ function Signup(){
             <button 
                 className="button-primary" 
                 aria-label="LOGIN"
+                onClick={e => goto_signup()}
                 >
                 Signup 
             </button>

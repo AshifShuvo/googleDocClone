@@ -1,10 +1,10 @@
-// import { useNavigate } from "react-router-dom";
+//import { useNavigate } from "react-router-dom";
 
 function Login(){
     
     // let nav = useNavigate();
     // const handleLogin = () => {
-    //     navigate("/document");  
+    //     navigate("/home");  
     // }
     
     return (
@@ -17,10 +17,19 @@ function Login(){
             <button 
                 className="button-primary" 
                 aria-label="LOGIN"
+                onClick={event =>  window.location.href='/home'} //Login e click korle Home e niye jabe
                 >
                 Login 
             </button>
+
+            <h5 className="input-label" style={{marginTop: "4rem"}}>New Here?</h5>
+            <button 
+                className="button-primary"
+                style={{marginTop: "0rem"}}
+                onClick={event =>  window.location.href='/signup'} //Login e click korle Home e niye jabe
+            >Sign Up</button>
         </div>
+
     );
 }
 

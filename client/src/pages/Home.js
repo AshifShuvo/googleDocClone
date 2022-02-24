@@ -1,20 +1,25 @@
-// import { useNavigate } from "react-router-dom";
+import { useHistory } from "react-router-dom";
+import DocumentCard from "../components/DocumentCard";
 
-function Home(){
-    
-    // let nav = useNavigate();
-    // const handleLogin = () => {
-    //     navigate("/document");  
-    // }
-    
+
+function Home(){    
     return (
         <div className="page-container">
-            <h1>I am HOMIE</h1>
-            
+            <h1>Welcome Back Madarchod</h1>
+            <h2>Documents</h2>
+            <div className="document-container">
+                <DocumentCard/>
+                <DocumentCard/>
+                <DocumentCard/>
+                <DocumentCard/>
+                <DocumentCard/>
+                <DocumentCard/>
+                <DocumentCard/>
+                <DocumentCard/>
+                <DocumentCard/>
+            </div>            
         </div>
     );
 }
 
-
 export default Home;
-
