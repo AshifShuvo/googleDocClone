@@ -17,6 +17,9 @@ function Home(){
                 <DocumentCard/>
                 <DocumentCard/>
                 <DocumentCard/>
+                <DocumentCard/>
+                <DocumentCard/>
+                <DocumentCard/>
             </div>            
         </div>
     );
