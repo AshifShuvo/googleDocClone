@@ -8,19 +8,13 @@ function DocumentCard(){
     }
     
     return (
-        <div className="document-card">
+        <div 
+        className="document-card"
+        onClick={event =>  goto_doc()}>
             <h5 className="document-title">Document Title</h5>
-            <button 
-                className="button-primary" 
-                aria-label="LOGIN"
-                onClick={event =>  goto_doc()} //Login e click korle Home e niye jabe
-                >
-                Edit 
-            </button>
         </div>
         
     );
 }
-
 
 export default DocumentCard;
