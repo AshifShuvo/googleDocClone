@@ -12,7 +12,7 @@ function Signup(){
     const history = useHistory()
 
     const goto_signup = () => {
-        // history.push('/sex_korte_hobe')
+        // history.push('/srte_hobe')
     }
     
     return (
@@ -21,6 +21,7 @@ function Signup(){
             <h6 className="input-label">Name</h6>
             <input className="input-input"></input>
             <h6 className="input-label">Email</h6>
+             
             <input className="input-input"></input>
             <h6 className="input-label">Password</h6>
             <input className="input-input"></input>

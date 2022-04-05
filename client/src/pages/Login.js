@@ -10,10 +10,17 @@ function Login(){
     return (
         <div className="page-container">
             <h1 className="login-label">Login</h1>
+
             <h6 className="input-label">Email</h6>
+            
             <input className="input-input"></input>
+
             <h6 className="input-label">Password</h6>
-            <input className="input-input"></input>
+            
+            <input type = "password" className="input-input">
+                
+            </input>
+            
             <button 
                 className="button-primary" 
                 aria-label="LOGIN"

@@ -8,8 +8,7 @@ function DocumentCard(){
     }
     
     return (
-        <div 
-        className="document-card"
+        <div className="document-card"
         onClick={event =>  goto_doc()}>
             <h5 className="document-title">Document Title</h5>
         </div>
